@@ -1,0 +1,18 @@
+{
+  "name": "fps-monitor",
+  "version": "0.0.1",
+  "description": "FPS monitor for web.",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "author": "wind2729@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^8.3.0",
+    "rollup": "^2.60.0",
+    "tslib": "^2.3.1",
+    "typescript": "^4.4.4"
+  }
+}
